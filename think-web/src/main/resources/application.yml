@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: cms
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
+  data:
+    solr:
+      host: http://127.0.0.1:8983/solr/
+server:
+  port: 8081
+  max-http-header-size: 81920
