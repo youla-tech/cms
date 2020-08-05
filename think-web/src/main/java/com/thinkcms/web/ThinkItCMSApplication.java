@@ -14,7 +14,7 @@ import java.net.UnknownHostException;
 
 @Slf4j
 @EnableSwagger2
-@SpringBootApplication
+@SpringBootApplication()
 @MapperScan(basePackages ={"com.thinkcms.*.mapper"})
 @ComponentScan(basePackages = {
         "com.thinkcms.core.*",
